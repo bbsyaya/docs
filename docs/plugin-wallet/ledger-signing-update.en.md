@@ -1,5 +1,5 @@
 
-## Upcoming Change: Signature Body Update for Ledger Signing
+# Upcoming Change: Signature Body Update for Ledger Signing
 
 For Ledger signing (including all transaction signatures, message signatures, and EIP-712 signatures), a new technical measure will be rolled out in the coming months. The trailing `01` in the `signature` field will be replaced with `1c`, and `00` will be replaced with `1b`.
 
